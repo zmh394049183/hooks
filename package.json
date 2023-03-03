@@ -4,6 +4,15 @@
   "description": "",
   "author": "xingdaorong",
   "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/my-react-hooks.git"
+  },
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --mode production",
