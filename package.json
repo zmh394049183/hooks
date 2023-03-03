@@ -2,15 +2,6 @@
   "name": "zmh-hooks",
   "version": "2.0.0",
   "description": "",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/your-username/my-react-hooks.git"
-  },
   "author": "xingdaorong",
   "license": "MIT",
   "scripts": {
@@ -32,12 +23,14 @@
     "babel-loader": "^9.1.2",
     "eslint": "^8.35.0",
     "eslint-plugin-react": "^7.32.2",
+    "html-webpack-plugin": "^5.5.0",
     "prettier": "^2.8.4",
     "ts-loader": "^9.4.2",
     "typescript": "^4.9.5",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
   },
   "dependencies": {
     "react": "^18.2.0",
