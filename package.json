@@ -14,7 +14,7 @@
     "url": "git+https://github.com/your-username/my-react-hooks.git"
   },
   "scripts": {
-    "start": "webpack serve --open",
+    "start": "webpack serve --mode development --open",
     "build": "webpack --mode production",
     "prepublishOnly": "npm run build"
   },
